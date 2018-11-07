@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetaildMovieActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="vertical" />
+
+        <ImageView
+            android:id="@+id/poster_img"
+            android:layout_width="160dp"
+            android:layout_height="230dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/movie_tile_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@id/poster_img"
+            android:padding="8dp"
+            android:textSize="18sp"
+            tools:text="movie tile" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movie_tile_tv"
+            android:layout_toEndOf="@+id/poster_img"
+            android:padding="8dp"
+            tools:text="rating" />
+
+        <TextView
+            android:id="@+id/movie_overview_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/poster_img"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:textSize="16sp"
+            tools:text="movie  overview" />
+
+        <TextView
+            android:id="@+id/release_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/movie_overview_tv"
+            android:padding="8dp"
+            android:textSize="16sp"
+            tools:text="release date" />
+    </RelativeLayout>
+</ScrollView>

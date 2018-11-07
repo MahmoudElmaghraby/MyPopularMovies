@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="top_rated_movies">Top rated movies</string>
+    <string name="most_popular_movies">Most popular movies</string>
+    <string name="save_state">save state</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
