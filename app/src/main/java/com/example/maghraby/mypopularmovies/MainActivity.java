@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     String sort_type;
     RadioGroup radioGroup;
     SharedPreferences.Editor editor ;
-    public static String api_key = "26f93e16f5f1dadf6c0c3c17462efcc6&language=en-US&page=1";
+    public static String api_key = ""; // Set your API key here 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
